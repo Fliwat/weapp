@@ -27,3 +27,37 @@
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+.icon {
+    display: inline-block;
+}
+
+.plain-btn {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 26rpx;
+    border-radius: 0;
+}
+
+.layer-scope {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 0;
+    padding: 0;
+}
+
+.invisible-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 10;
+    padding: 0;
+}
